@@ -22,11 +22,9 @@ print(numbers_2)
 print(numbers_3)
 names.append("John")
 names_2.insert(2,"Anna")
-# remove удаляет только первое вхождение
-names_3.remove("Bob")
-numbers.extend([6, 7, 8])
-# можно сохранить удаленное значение в переменную delete_save
-delete_save = numbers_2.pop(2)
+names_3.remove("Bob") # remove удаляет только первое вхождение
+numbers.extend([6, 7, 8]) 
+delete_save = numbers_2.pop(2) # можно сохранить удаленное значение в переменную delete_save
 numbers_3.clear()
 b = a.index(None)
 
