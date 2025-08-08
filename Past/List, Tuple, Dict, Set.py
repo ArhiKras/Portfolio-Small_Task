@@ -36,7 +36,7 @@ names_3.remove("Bob")
 print(names_3)
 print('\n')
 
-# pop
+# pop - может вернуть значение
 
 print("pop")
 numbers_2 = [1, 2, 3, 4, 5, 6, 7]
@@ -203,4 +203,58 @@ print('\n')
 
 print("# МНОЖЕСТВА(Set)")
 print('\n')
+my_set = {1, 2, 3, 4, 5}
 
+# add
+
+my_set.add(9)
+print(my_set)
+print('\n')
+
+# remove
+
+my_set.remove(1)
+print(my_set)
+print('\n')
+
+# discard
+
+my_set.discard(10)
+print(my_set)
+print('\n')
+
+# pop - может вернуть значение
+
+a = my_set.pop()
+print(my_set)
+print(a)
+print('\n')
+
+# clear
+
+my_set.clear()
+print(my_set)
+print('\n')
+
+my_set2 = {1, 2, 3, 4, 5}
+my_set3 = {5, 6, 7, 8, 9, 10}
+
+# union - может вернуть значение
+
+set_union = my_set2.union(my_set3)
+print(set_union)
+print('\n')
+
+# intersection - может вернуть значение
+
+set_intersection = my_set2.intersection(my_set3)
+print(set_intersection)
+print('\n')
+
+# difference - может вернуть значение
+
+set_difference1 = my_set2.difference(my_set3)
+set_difference2 = my_set3.difference(my_set2)
+print(set_difference1)
+print(set_difference2)
+print('\n')
