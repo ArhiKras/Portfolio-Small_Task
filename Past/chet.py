@@ -1,0 +1,10 @@
+numbers = []
+num1 = int(input("Введите первое число: "))
+num2 = int(input("Введите второе число: "))
+
+for i in range(num1, num2 + 1):
+  if i % 2 != 0:
+    continue
+  else:
+    numbers.append(i)
+print(f"Последовательность четных чисел из диапазона {num1} - {num2}: {numbers}")
